@@ -115,3 +115,11 @@ enableEmoji = true
     weight = 20
     contentDir = "content/de"
     languageName = "Deutsch"
+
+#trying to resolve github actions issues with AI - workaround for missing themes
+theme = "hugo-scroll"
+
+[module]
+  [[module.imports]]
+    path = "github.com/zjedi/hugo-scroll"
+    
